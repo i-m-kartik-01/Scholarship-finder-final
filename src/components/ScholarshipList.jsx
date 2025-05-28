@@ -173,7 +173,7 @@ const ScholarshipList = ({ scholarships, studentProfile, favorites, onToggleFavo
                   <option value="all">All Deadlines</option>
                   <option value="urgent">Urgent (≤ 1 month)</option>
                   <option value="upcoming">Upcoming (1-3 months)</option>
-                  <option value="future">Future (> 3 months)</option>
+                  <option value="future">Future (&get; 3 months)</option>
                 </select>
               </div>
               
