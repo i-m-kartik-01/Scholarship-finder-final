@@ -125,7 +125,7 @@ const StudentForm = ({ onSubmit }) => {
                     value={formData.name}
                     onChange={handleChange}
                     className="form-input"
-                    placeholder="John Doe"
+                    placeholder="Name"
                     required
                   />
                 </div>
@@ -138,7 +138,7 @@ const StudentForm = ({ onSubmit }) => {
                     value={formData.email}
                     onChange={handleChange}
                     className="form-input"
-                    placeholder="johndoe@example.com"
+                    placeholder="yourmail@mail.com"
                     required
                   />
                 </div>
