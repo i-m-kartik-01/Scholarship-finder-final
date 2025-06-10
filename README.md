@@ -12,7 +12,7 @@ A full-stack web application to help students find and match with relevant schol
 - **Responsive Design**: Works seamlessly across all device sizes
   
 
-## Technology Stack
+## Tech Stack
 
 ### Frontend
 - React.js
