@@ -10,8 +10,9 @@ A full-stack web application to help students find and match with relevant schol
 - **Filter and Sort Options**: Refine results by amount, deadline, and other criteria
 - **Favorite Scholarships**: Save scholarships of interest for later reference
 - **Responsive Design**: Works seamlessly across all device sizes
+  
 
-## Tech Stack
+## Technology Stack
 
 ### Frontend
 - React.js
