@@ -10,15 +10,15 @@ export const seedScholarships = async () => {
   try {
     await Scholarship.deleteMany();
     await Scholarship.insertMany(scholarshipsData);
-    console.log('✅ Scholarships seeded');
+    console.log('Scholarships seeded');
   } catch (error) {
-    console.error('❌ Seeding failed:', error);
+    console.error('Seeding failed:', error);
     throw error;
   }
 };
 export const getScholarships = async (req, res) => {
   try {
-    const scholarships = await Scholarship.find(); // ✅ pulls all from DB
+    const scholarships = await Scholarship.find(); // pulls all from DB
     res.status(200).json(scholarships);
   } catch (error) {
     res.status(500).json({ message: 'Server error', error: error.message });
